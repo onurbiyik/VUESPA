@@ -25,9 +25,6 @@ Chrome ve Edge tarayıcıları, ilk açıldığında, windows authentication end
 ![image](https://user-images.githubusercontent.com/6241024/117143942-0a1b0f80-adba-11eb-99ef-c28a252a50bb.png)
 
 
-
-TODO: Continue readme
-
 ### Test için vue projesinin çalıştırılması
 ```
 npm run serve
