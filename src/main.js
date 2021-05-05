@@ -5,11 +5,6 @@ import router from './router'
 
 Vue.config.productionTip = false;
 
-fetch('https://localhost:44369/whoami', { credentials: 'include', method: 'post' })
-    .then(response => response.json())
-    .then(data => console.log(data));
-
-
 
 new Vue({
   router,
