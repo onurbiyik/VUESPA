@@ -17,17 +17,18 @@ import HelloWorld from '@/components/HelloWorld.vue'
         ,
         mounted() {
 
-            fetch('https://localhost:5555/BeniRedirect',
-                { method: 'get' })
-                .then(response => response.json())
-                .then(data => console.log(data))
-                //.then(data =>
+            //fetch('https://localhost:5555/BeniRedirect',
+            //    { credentials: 'include', method: 'get' })
+            //    .then(response => response.json())
+            //    .then(data => console.log(data))
+            //    //.then(data =>
 
-                //    fetch('https://localhost:5555/WinOt',
-                //        { credentials: 'include', method: 'post' })
-                //        .then(response => response.json())
-                //        .then(data => console.log(data))
-                //);
+            fetch('https://localhost:5555/WinOt',
+                { credentials: 'include', method: 'post' })
+                .then(response => response.json())
+                .then(data => console.log(data));
+
+            //);
 
         }
     }
